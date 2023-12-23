@@ -1,10 +1,10 @@
-const square = (num) => {
-  console.log(num ** 2)
-}
-
 // const square = (num) => {
-//   let i = num ** 2;
-//   console.log(i)
+//   console.log(num ** 2)
 // }
+// square(10);
 
-square(10);
+
+const square = (num) => {
+  return num ** 2;
+}
+console.log(square(10));
